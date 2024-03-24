@@ -900,12 +900,12 @@ function GameMode:drawScoringInfo()
 		love.graphics.printf("NEXT", 64, 40, 40, "left")
 	end
 
-	love.graphics.print(
-		self.das.direction .. " " ..
-		self.das.frames .. " " ..
-		strTrueValues(self.prev_inputs) ..
-		self.drop_bonus
-	)
+--	love.graphics.print(
+--		self.das.direction .. " " ..
+--		self.das.frames .. " " ..
+--		strTrueValues(self.prev_inputs) ..
+--		self.drop_bonus
+--	)
 
 	love.graphics.setFont(font_8x11)
 	love.graphics.printf(formatTime(self.frames), 64, 420, 160, "center")
